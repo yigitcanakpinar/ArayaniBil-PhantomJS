@@ -10,9 +10,7 @@ var url = 'https://www.arayanibil.com/numara-sorgulama/'+args+'/';
 page.open(url, function(status) {
 
   //console.log("Status: " + status);
-  
-  
-  
+    
   if(status === "success") {
 
 	resultName = page.evaluate(function(){
